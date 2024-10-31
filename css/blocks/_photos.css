@@ -1,0 +1,24 @@
+.photos {
+  margin: 120px 0;
+}
+
+.photos__one {
+  grid-area: one;
+}
+
+.photos__two {
+  grid-area: two;
+  margin-top: 27px;
+}
+
+.photos__three {
+  grid-area: three;
+}
+
+.photos__container {
+  display: grid;
+  grid-template-areas:
+    "one  three"
+    "two three";
+  gap: 10px;
+}
